@@ -1,0 +1,136 @@
+<html>
+  <head>
+  </head>
+    <style>
+    .qizil {
+     --c:red;
+     --a:pink;
+     --b:pink;
+    fill:pink;
+    animation: hey 2s;
+    animation-duration:45s;
+    
+    animation-play-state:running;
+    animation-iteration-count:15;
+    }
+    .sariq {
+--c:pink;
+--a:yellow;
+     --b:pink;
+    fill:pink;
+    animation: hey 2s;
+    animation-duration:45s;
+    animation-iteration-count:infinite;
+    }
+    .yashil {
+--c:pink;
+--a:pink;
+     --b:green;
+    fill:pink;
+    animation: hey 2s;
+    animation-duration:45s;
+    
+    animation-iteration-count:infinite;
+    }
+    @keyframes hey {
+    0% {fill: var(--c);}
+    50% {fill: var(--c);}
+    51%{fill: var(--a);}
+    56%{fill: var(--a);}
+    56%{fill: var(--b);}
+    100%{fill: var(--b);}
+   }
+  
+    line{
+    stroke:white;
+    stroke-width:2;
+    }
+     
+    .a2{
+    fill:pink;
+    animation-name:oldchiroq;
+    animation-duration:1s;
+    animation-iteration-count:infinite;
+    }
+    @keyframes oldchiroq{
+    from{
+fill:pink;
+
+}
+    to{fill:red;}
+    }
+    
+
+ .a3{
+    fill:pink;
+    animation-name:oldchiroq;
+    animation-duration:1s;
+    animation-iteration-count:infinite;
+    }
+    @keyframes oldchiroq{
+    from{
+fill:pink;
+}
+    to{fill:red;}
+    }
+     
+
+
+
+
+     </style>
+       
+       <body>
+        <div>
+        
+        
+          <svg width="100%" height="500">
+          
+            <rect width="80px" height="200px" x=550 y=30 rx="15" ry="15" style="fill:black;stroke:black;stroke-width:1;opacity:1" >
+            </rect>
+           <circle class="qizil" cx="590" cy="70" r=25 />
+           
+            <circle class="sariq" cx="590" cy="130" r=25 />
+            <circle class="yashil" cx="590" cy="190" r=25 /> 
+            <rect width="30px" height="100px" x=575 y=230  style="fill:black;stroke:black;stroke-width:1;opacity:1" >
+            </rect>
+            <rect width="100%" height="170px" x=0 y=330  style="fill:grey;stroke:yellow;stroke-width:1;opacity:1" >
+              </rect>
+
+            <line x1=0 y1=410 x2="100%" y2=410px stroke-dasharray="20, 20" /> 
+            <rect width=160px height="10px" x=550 y=340  style="fill:white" / >  </rect>
+            <rect width=160px height="10px" x=550 y=360  style="fill:white" / >  </rect>
+            <rect width=160px height="10px" x=550 y=380  style="fill:white" / >  </rect>
+            <rect width=160px height="10px" x=550 y=400  style="fill:white" / >  </rect>
+            <rect width=160px height="10px" x=550 y=420  style="fill:white" / >  </rect>
+            <rect width=160px height="10px" x=550 y=440  style="fill:white" / >   </rect>
+            <rect width=160px height="10px" x=550 y=460  style="fill:white" / >  </rect>
+            <rect width=160px height="10px" x=550 y=480  style="fill:white" / >  </rect>
+            <rect width=160px height="10px" x=550 y=500  style="fill:white" / >  </rect>
+            <rect width=10px height="170px" x=550 y=330  style="fill:white" / >  </rect>
+            <rect width=10px height="170px" x=700 y=330  style="fill:white" / >  </rect>
+           
+            <rect class="a0" width="160px" height="50px" x=250 y=410 rx="25" ry="25" style="fill:lightblue;stroke:yellow;stroke-width:1;opacity:1" >
+            </rect> 
+            <rect class="a1" width="300px" height="60px" x=200 y=430 rx="25" ry="25" style="fill:gold;stroke:yellow;stroke-width:1;opacity:1" >
+            </rect> 
+            <rect class="a2" width="15px" height="12px" x=470 y=435 rx="4" ry="4" style="fill:red;stroke:yellow;stroke-width:1;opacity:1" >
+            </rect> 
+             <rect class="a3" width="15px" height="12px" x=210 y=435 rx="4" ry="4" style="fill:red;stroke:yellow;stroke-width:1;opacity:1" >
+            </rect> 
+             <rect class="a4" width="50px" height="60px" x=350 y=430 rx="4" ry="20" style="fill:gold;stroke:yellow;stroke-width:1;opacity:1" >
+            </rect> 
+              <rect class="a5" width="50px" height="60px" x=280 y=430 rx="4" ry="20" style="fill:gold;stroke:yellow;stroke-width:1;opacity:1" >
+            </rect> 
+            <rect class="a6" width="20px" height="8px" x=370 y=440 rx="4" ry="4" style="fill:pink;stroke:red;stroke-width:1;opacity:1" >
+            </rect> 
+             <rect class="a7" width="20px" height="8px" x=300 y=440 rx="4" ry="4" style="fill:pink;stroke:red;stroke-width:1;opacity:1" >
+            </rect> 
+           <circle class="orqa" cx="250" cy="480" r=20 style="fill:black"/>
+           <circle class="orqaichi" cx="250" cy="480" r=15 style="fill:red" />
+           <circle class="oldingi" cx="450" cy="480" r=20 style="fill:black" />
+           <circle class="oldingiichi" cx="450" cy="480" r=15 style="fill:red" />
+          </svg>
+        </div>
+       </body>
+</html>
